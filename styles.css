@@ -83,12 +83,12 @@ button {
 }
 
 .mid-images img {
-    border:solid 2px #3882F6;
+    border:solid 4px #3882F6;
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     margin: auto;
     
 }
@@ -98,10 +98,30 @@ button {
     margin: auto 400px ;
     flex-shrink: 0;
     gap: 20px;
-
+    justify-content: center;
     
 }
 
 .mid-images p {
     text-align: center;
+}
+
+/*  Third Section (quote) */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 75px 350px ;
+    margin: 75px 0;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote .person {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
 }
