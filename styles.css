@@ -5,7 +5,7 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding:  20px 120px 120px 120px;
+    padding:  20px 200px 120px 200px;
     
 }
 
@@ -73,3 +73,35 @@ button {
 }
 
 /* Second section */
+
+.Information h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    justify-content: center;
+    display: flex;
+}
+
+.mid-images img {
+    border:solid 2px #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    
+}
+
+.mid-images {
+    display: flex;
+    margin: auto 400px ;
+    flex-shrink: 0;
+    gap: 20px;
+
+    
+}
+
+.mid-images p {
+    text-align: center;
+}
