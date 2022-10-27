@@ -1,14 +1,34 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin:0;
+    background-image: url(https://images.creativemarket.com/0.1.0/ps/6987248/1820/1138/m1/fpnw/wm0/7-.jpg?1568806364&s=7d745629fdffa1b9f7e7e4fbd82efb50);
 }
 
 .header {
-    background-color: #1F2937;
-    padding-bottom: 120px;
+    background-color: #28053beb;
+    padding-bottom: 100px;
     
+
 }
 
+.logo {
+    display: flex;
+}
+.logo img {
+    width: auto;
+    height: 90px;
+    transform: rotate(45deg);
+}
+
+.logo p {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #d030cb 0%, #083567 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     align-self: center;
+    padding-left: 30px;
+    font-size: 25px;
+}
 .header-text {
     display: flex 1 1 0;
 
@@ -18,7 +38,7 @@ body {
     display: flex;
     gap: 60px;
     padding-left: 200px;
-    padding-right: 200px
+    padding-right: 180px
 }
 
 .header-part-2 > * {
@@ -31,7 +51,7 @@ body {
     padding-right: 200px;
     height: 100px;
     align-items: center;
-    background-color: #3882F6;
+    background-color: black;
 }
 
 nav {
@@ -50,9 +70,9 @@ a {
     margin-bottom: -10px;
 }
 
-.header p,
-.header a {
-    font-size: 18px;
+.header a,
+.header-text p {
+    font-size: 22px;
     color: #E5E7EB;
 }
 
@@ -63,7 +83,7 @@ a {
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #a32cdc;
     color: #F9FAF8;
     font-weight: bold;
     font-size: 18px;
@@ -77,6 +97,9 @@ button {
     background-color: grey;
     display: flex ;
     align-items: center;
+    border-radius: 30px;
+    width: auto;
+    height: 400px;
 
 }
 
@@ -85,19 +108,25 @@ button {
 .Information h2 {
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937;
+    color:white;
     justify-content: center;
     display: flex;
+    text-shadow: 0 0 0.15em;
 }
-
+.Information a {
+display: flex;
+justify-content: center;
+color: #8080803b;
+}
 .mid-images img {
-    border:solid 4px #3882F6;
+    border:solid 4px #6f4598;
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    width: 140px;
-    height: 140px;
+    width: 180px;
+    height: 180px;
     margin: auto;
+    opacity: 0.95;
     
 }
 
@@ -105,7 +134,7 @@ button {
     display: flex;
     margin: auto 400px ;
     flex-shrink: 0;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
     
 }
@@ -114,12 +143,32 @@ button {
     text-align: center;
 }
 
+.first-img p,
+.second-img p,
+.third-img p,
+.fourth-img p {
+    
+    color: white;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.312);
+    border-radius: 10px;
+}
+
+.mid-images ul {
+    text-align: center;
+    list-style: none;
+    color: white;
+   background-color: rgba(255, 255, 255, 0.312);
+   border-radius: 10px;
+   font-size: 18px;
+   padding: 10px 10px;
+}
 /*  Third Section (quote) */
 
 .quote {
-    background-color: #E5E7EB;
+    background-color: #e5e7ebe6;
     padding: 75px 320px ;
-    margin: 75px 0;
+    margin: 60px 0;
 }
 
 .quote .text {
@@ -130,7 +179,7 @@ button {
 
 .quote .person {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
     text-align: right;
 }
 
